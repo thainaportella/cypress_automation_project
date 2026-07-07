@@ -1,0 +1,19 @@
+{
+  "password": "SuperSecretPassword123",
+  "day": "6",
+  "month": "July",
+  "year": "1998",
+  "firstName": "Thaina",
+  "lastName": "Portella",
+  "company": "QA Tech Solutions",
+  "address1": "123 Automation Street, Apt 4B",
+  "address2": "Silicon Valley",
+  "country": "United States",
+  "state": "California",
+  "city": "Los Angeles",
+  "zipcode": "90001",
+  "mobile": "+1234567890",
+
+  "invalidEmail": "usuario_fantasma_999@test.com",
+  "invalidPassword": "SenhaErrada123"
+}
