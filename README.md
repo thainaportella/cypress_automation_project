@@ -37,6 +37,28 @@ Before running the tests, make sure you have the following installed:
 ## 🚀 Getting Started
 
 1. **Clone the repository:**
-   ```bash
    git clone [https://github.com/YOUR_USERNAME/cypress_automation_project.git](https://github.com/YOUR_USERNAME/cypress_automation_project.git)
    cd cypress_automation_project
+2. **Install project dependencies:**
+   npm install
+4. **Open the Cypress Test Runner (Interactive Mode):**
+   npx cypress open
+6. **Run tests headlessly (CLI Mode):**
+   npx cypress run
+
+---
+
+## 📁 Project Structure
+
+cypress_automation_project/
+├── cypress/
+│   ├── e2e/
+│   │   └── user_registration.cy.js  # Core E2E test specs
+│   ├── fixtures/                    # Static test data files
+│   └── support/                     # Custom commands and global configuration
+├── cypress.config.js                # Cypress main configuration file
+├── package.json                     # Node dependencies and scripts
+└── README.md                        # Project documentation
+
+
+💡 This is a continuous development project meant to demonstrate advanced E2E testing capabilities.
